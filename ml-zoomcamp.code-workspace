@@ -4,5 +4,12 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"python.defaultInterpreterPath": "/usr/local/bin/python3",
+		"jupyter.defaultKernel": "python3",
+		"jupyter.jupyterServerType": "local",
+		"jupyter.alwaysTrustNotebooks": true,
+		"jupyter.askForKernelRestart": false,
+		"jupyter.kernels.python.defaultKernel": "/usr/local/bin/python3"
+	}
 }
