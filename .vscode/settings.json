@@ -1,4 +1,22 @@
 {
     "python.pythonPath": "/usr/local/bin/python3",
-    "python.defaultInterpreterPath": "/usr/local/bin/python3"
+    "python.defaultInterpreterPath": "/usr/local/bin/python3",
+    // Jupyter Notebook Settings
+    "jupyter.defaultKernel": "python3",
+    "jupyter.alwaysTrustNotebooks": true,
+    "jupyter.askForKernelRestart": false,
+    "jupyter.interactiveWindow.creationMode": "perFile",
+    // Force VS Code to use local Jupyter server
+    "jupyter.jupyterServerType": "local",
+    "jupyter.disableJupyterAutoStart": false,
+    // Kernel settings
+    "jupyter.kernels.filter": [],
+    "jupyter.kernels.trusted": [],
+    // Notebook settings
+    "notebook.defaultRenderer": "jupyter-notebook",
+    "notebook.cellToolbarLocation": {
+        "default": "right"
+    },
+    // Python environment for notebooks
+    "jupyter.kernels.python.defaultKernel": "/usr/local/bin/python3"
 }
